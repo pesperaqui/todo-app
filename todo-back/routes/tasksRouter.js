@@ -4,8 +4,8 @@ const tasksController = require ('../controllers/tasksController');
 
 
 router.get('/', tasksController.getTasks);
-router.post('/', tasksController.addTask);
-router.delete('/taskId', tasksController.deleteTaskById);
+// router.post('/', tasksController.addTask);
+// router.delete('/taskId', tasksController.deleteTaskById);
 
 
 module.exports = router;
